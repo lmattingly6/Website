@@ -1,12 +1,14 @@
 
 h1 { text-align: center;
+     font-size: 100px;
+     margin:0;
 }
 
 	
 body {    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d99988;
+    background-color: white;
     color: #333;
 }
 
@@ -17,7 +19,7 @@ main {
 }
 
 nav {
-     background-color: #d99988;
+
      padding: 23px;
      border-radius: 10px;
     
@@ -49,7 +51,7 @@ nav ul {
         }
 		
  nav a:hover {
-            background-color: #d99988 ;
+            background-color:#d99988;
             color: white; /* Change the background color on hover */
         }
 
@@ -84,7 +86,7 @@ nav ul {
     color: #333;
 }
 .project-card {
-    background-color: white;
+    background-color:#e4beb3;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -107,10 +109,11 @@ nav ul {
 }
 
 .about-me {
-    max-width: 600px;
-    padding: 0 20px;
-    background-color: white;
-    border: 1px solid #ddd;
+    max-width: 700px;
+    height: auto;
+    padding:60px;
+    background-image:linear-gradiant(white,#d99988);
+    border: 6px dotted grey;;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: auto;
@@ -122,11 +125,11 @@ nav ul {
 
 .header {
    
-    color: white ;
     text-align: center;
     padding: 0;
     font-size: 30px;
     font-family: "Lucida Handwriting", cursive;
+
      /* Add rounded edges */
  
  
@@ -136,7 +139,7 @@ nav ul {
 
 
 .resume-container {
-    background-color: white;
+    background-color:#e4beb3;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -145,6 +148,7 @@ nav ul {
     width: 100%;
     margin: auto;
     text-align: left;
+
 }
 
 .resume-section {
@@ -163,9 +167,10 @@ nav ul {
 .resume-download a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: #e4beb3;
     text-decoration: none;
+    font-weight: bold;
     border-radius: 5px;
 }
 
