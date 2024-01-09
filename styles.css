@@ -211,3 +211,36 @@ nav ul {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #555;
     /* color of the thumb on hover */
+    @media only screen and (max-width: 600px) {
+        h1 {
+            font-size: 60px; /* Adjust font size for smaller screens */
+        }
+    
+        nav {
+            padding: 10px; /* Reduce padding for smaller screens */
+        }
+    
+        nav ul {
+            padding: 10px; /* Adjust padding for smaller screens */
+        }
+    
+        nav li {
+            display: block; /* Convert list items to block for stacking on smaller screens */
+            margin: 10px 0; /* Add some spacing between list items */
+        }
+    
+        .project-card {
+            width: 100%; /* Make project cards full width on smaller screens */
+        }
+    
+        .about-me {
+            padding: 20px; /* Adjust padding for smaller screens */
+        }
+        
+        .resume-container {
+            padding: 10px; /* Adjust padding for smaller screens */
+        }
+    
+        .resume-download a {
+            padding: 8px 15px; /* Adjust padding for smaller screens */
+        }
