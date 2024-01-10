@@ -185,6 +185,7 @@ nav ul {
 .image-container img {
     width: auto;
     height:500px;
+    border-radius: 5px;
 }
 
  
