@@ -176,10 +176,11 @@ nav ul {
 
 /* Define the image-container class */
 .image-container {
-    max-width: auto;
+    width:100%;
+    height: auto;
     margin: auto;
     align-items: center;
-    margin:auto;
+
 }
 .image-container img {
     width: auto;
@@ -245,6 +246,7 @@ nav ul {
             padding: 8px 15px; /* Adjust padding for smaller screens */
         }
         .image-container img {
-            height: 400px;
+            height: auto;
+            max-width: 100%;
          }
     }
