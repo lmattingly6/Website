@@ -35,7 +35,7 @@ nav ul {
         }
 
  nav li {
-            display: inline;
+            display: inline-block;
             margin-right: 10px;
 			
         }
@@ -51,7 +51,7 @@ nav ul {
         }
 		
  nav a:hover {
-            background-color:#d99988;
+            background-color:#e4beb3;
             color: white; /* Change the background color on hover */
         }
 
@@ -112,8 +112,6 @@ nav ul {
     max-width: 700px;
     height: auto;
     padding:60px;
-    background-image:linear-gradiant(white,#d99988);
-    border: 6px dotted grey;;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: auto;
@@ -201,7 +199,7 @@ nav ul {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #d99988;
+    background-color:black;
     /* color of the thumb */
     border-radius: 6px;
     /* roundness of the thumb */
@@ -228,7 +226,7 @@ nav ul {
     
         nav li {
             display: block; /* Convert list items to block for stacking on smaller screens */
-            margin: 10px; /* Add some spacing between list items */
+            margin: 30px; /* Add some spacing between list items */
         }
     
         .project-card {
